@@ -1,0 +1,13 @@
+{
+	"name": "zearch",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "tsup --watch & vitest dev",
+		"build": "tsup"
+	},
+	"type": "module",
+	"devDependencies": {
+		"tsup": "^6.6.0",
+		"vitest": "^0.28.4"
+	}
+}
